@@ -4,3 +4,6 @@
 
 This is a driver board for the bulbdial clock built by [Yomin](https://github.com/Yomin) in [bdclock](https://github.com/Yomin/bdclock), which is in turn inspired by the bulbdial clock developed at [Evil Mad Scientist Laboratories](https://www.evilmadscientist.com/2009/a-bulbdial-clock/).
 
+## License
+
+[MIT](LICENSE.txt) © 2023 Stefan Haun and contributors
