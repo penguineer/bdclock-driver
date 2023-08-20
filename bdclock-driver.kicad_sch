@@ -2158,7 +2158,7 @@
   (symbol (lib_id "74xx:74LS138") (at 226.06 138.684 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04972cfb-6688-4844-8f92-883b55232bdc)
-    (property "Reference" "U8" (at 228.0159 125.5141 0)
+    (property "Reference" "U7" (at 228.0159 125.5141 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS138" (at 228.0159 127.4351 0)
@@ -2189,7 +2189,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "U8") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -2223,7 +2223,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 17.78 33.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cae25c9-e36e-49c5-89bf-ea2ae101979f)
-    (property "Reference" "J1" (at 17.78 26.2001 0)
+    (property "Reference" "J2" (at 17.78 26.2001 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PWR" (at 17.78 28.1211 0)
@@ -2240,7 +2240,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2274,7 +2274,7 @@
   (symbol (lib_id "Device:C") (at 91.44 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1838850f-e00f-492e-a2cb-69ad566950cb)
-    (property "Reference" "C11" (at 94.361 62.8563 0)
+    (property "Reference" "C1" (at 94.361 62.8563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 94.361 64.7773 0)
@@ -2291,7 +2291,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "C11") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2300,7 +2300,7 @@
   (symbol (lib_id "74xx:74HC595") (at 147.32 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ce2f02b-88eb-4dcb-83c6-455e3a940b98)
-    (property "Reference" "U5" (at 149.2759 83.3501 0)
+    (property "Reference" "U4" (at 149.2759 83.3501 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC595" (at 149.2759 85.2711 0)
@@ -2331,7 +2331,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "U5") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2419,7 +2419,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 209.55 33.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26103ec9-7481-4c58-a015-bc3ab2161301)
-    (property "Reference" "J2" (at 209.55 25.4 0)
+    (property "Reference" "J1" (at 209.55 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Ctrl" (at 209.55 27.448 0)
@@ -2437,7 +2437,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2446,7 +2446,7 @@
   (symbol (lib_id "Device:C") (at 73.66 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a4e70fe-f67e-42ee-aa3f-9b1cfa36a344)
-    (property "Reference" "C9" (at 76.581 116.1963 0)
+    (property "Reference" "C8" (at 76.581 116.1963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 76.581 118.1173 0)
@@ -2463,7 +2463,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "C9") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -2472,7 +2472,7 @@
   (symbol (lib_id "74xx:74LS138") (at 226.06 93.218 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b398bca-dd3e-4ce5-a470-fc164a98d5ea)
-    (property "Reference" "U7" (at 228.0159 80.0481 0)
+    (property "Reference" "U6" (at 228.0159 80.0481 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS138" (at 228.0159 81.9691 0)
@@ -2503,7 +2503,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "U7") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -2512,7 +2512,7 @@
   (symbol (lib_id "Device:C") (at 260.35 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 309c09ee-2210-4e97-831d-9e24df6e6da1)
-    (property "Reference" "C12" (at 263.271 38.7263 0)
+    (property "Reference" "C10" (at 263.271 38.7263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 263.271 40.6473 0)
@@ -2529,7 +2529,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "C12") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2538,7 +2538,7 @@
   (symbol (lib_id "Device:C") (at 34.29 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31210ffe-9372-47cb-86a2-647f74f7b5f1)
-    (property "Reference" "C3" (at 37.211 62.8563 0)
+    (property "Reference" "C4" (at 37.211 62.8563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 37.211 64.7773 0)
@@ -2555,7 +2555,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2589,7 +2589,7 @@
   (symbol (lib_id "Device:R") (at 254 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48953411-eccb-42ee-83d0-83cc8a60833a)
-    (property "Reference" "R5" (at 248.92 67.31 90)
+    (property "Reference" "R6" (at 248.92 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220R" (at 260.35 67.31 90)
@@ -2606,7 +2606,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2615,7 +2615,7 @@
   (symbol (lib_id "Device:R") (at 260.35 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4966e89b-b892-4a65-b505-617289106578)
-    (property "Reference" "R6" (at 262.128 24.7563 0)
+    (property "Reference" "R5" (at 262.128 24.7563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 262.128 26.6773 0)
@@ -2632,7 +2632,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "R6") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2641,7 +2641,7 @@
   (symbol (lib_id "Device:C") (at 80.01 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f872dec-cb67-4dd8-8e0f-df16883d5c1b)
-    (property "Reference" "C10" (at 82.931 62.8563 0)
+    (property "Reference" "C2" (at 82.931 62.8563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 82.931 64.7773 0)
@@ -2658,7 +2658,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "C10") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2667,7 +2667,7 @@
   (symbol (lib_id "74xx:74HC595") (at 147.066 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 576af095-99d9-46f6-bab8-6c9932ff02e3)
-    (property "Reference" "U4" (at 149.0219 30.0101 0)
+    (property "Reference" "U3" (at 149.0219 30.0101 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC595" (at 149.0219 31.9311 0)
@@ -2698,7 +2698,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2707,7 +2707,7 @@
   (symbol (lib_id "Device:R") (at 73.66 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b206293-2f74-47dc-bdc1-856aefec6115)
-    (property "Reference" "R1" (at 75.438 93.3363 0)
+    (property "Reference" "R2" (at 75.438 93.3363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470R" (at 75.438 95.2573 0)
@@ -2724,7 +2724,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2786,7 +2786,7 @@
   (symbol (lib_id "4xxx:4017") (at 63.5 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 652b93b5-ad84-4930-98d7-75eae39d1143)
-    (property "Reference" "U3" (at 65.4559 146.8501 0)
+    (property "Reference" "U2" (at 65.4559 146.8501 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC4017" (at 65.4559 148.7711 0)
@@ -2817,7 +2817,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2826,7 +2826,7 @@
   (symbol (lib_id "Device:C") (at 29.21 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66ef49fd-a545-484a-a5d3-68e163ecdbae)
-    (property "Reference" "C2" (at 32.131 108.5763 0)
+    (property "Reference" "C9" (at 32.131 108.5763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 32.131 110.4973 0)
@@ -2843,7 +2843,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "C2") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2852,7 +2852,7 @@
   (symbol (lib_id "Device:R") (at 254 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b3523cf-c11b-43af-a276-f17ee39ef19a)
-    (property "Reference" "R3" (at 248.92 62.23 90)
+    (property "Reference" "R4" (at 248.92 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220R" (at 260.35 62.23 90)
@@ -2869,7 +2869,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "R3") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2878,7 +2878,7 @@
   (symbol (lib_id "Device:R") (at 73.66 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72ef0f43-1256-4a77-9d80-6042f30b8b92)
-    (property "Reference" "R2" (at 75.438 106.0363 0)
+    (property "Reference" "R1" (at 75.438 106.0363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k2" (at 75.438 107.9573 0)
@@ -2895,7 +2895,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "R2") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2929,7 +2929,7 @@
   (symbol (lib_id "Diode:1N4001") (at 30.48 30.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7835362a-4a27-482c-9d06-2f2f86b1286e)
-    (property "Reference" "D1" (at 30.48 26.2001 0)
+    (property "Reference" "D2" (at 30.48 26.2001 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4001" (at 30.48 28.1211 0)
@@ -2952,7 +2952,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3018,7 +3018,7 @@
   (symbol (lib_id "74xx:74HC595") (at 147.32 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 808c6951-101d-418a-b3a0-2f38de7b2cff)
-    (property "Reference" "U6" (at 149.2759 135.4201 0)
+    (property "Reference" "U5" (at 149.2759 135.4201 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74HC595" (at 149.2759 137.3411 0)
@@ -3049,7 +3049,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "U6") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -3109,7 +3109,7 @@
   (symbol (lib_id "Device:R") (at 254 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ef1fe24-57eb-4eac-ae43-00bf21279966)
-    (property "Reference" "R4" (at 248.92 64.77 90)
+    (property "Reference" "R3" (at 248.92 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220R" (at 260.35 64.77 90)
@@ -3126,7 +3126,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "R4") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3160,7 +3160,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 39.37 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0d9c9cf-2d04-4abe-b0f5-e453afd97277)
-    (property "Reference" "C4" (at 42.291 34.0273 0)
+    (property "Reference" "C12" (at 42.291 34.0273 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100u" (at 42.291 35.9483 0)
@@ -3180,7 +3180,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "C4") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -3189,7 +3189,7 @@
   (symbol (lib_id "Regulator_Linear:LM7805_TO220") (at 54.61 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a27bc823-f79e-4a51-a24e-7f2ab0357316)
-    (property "Reference" "U2" (at 54.61 25.5651 0)
+    (property "Reference" "U8" (at 54.61 25.5651 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM7805_TO220" (at 54.61 27.4861 0)
@@ -3207,7 +3207,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "U2") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -3321,7 +3321,7 @@
   (symbol (lib_id "Device:C") (at 22.86 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbd4a8f4-1fb7-46a7-b285-a31d97878ba5)
-    (property "Reference" "C1" (at 25.781 62.8563 0)
+    (property "Reference" "C3" (at 25.781 62.8563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 25.781 64.7773 0)
@@ -3338,7 +3338,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3347,7 +3347,7 @@
   (symbol (lib_id "Device:C") (at 67.31 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf34ec0a-3ab8-4476-a9c2-1d0944c378a2)
-    (property "Reference" "C7" (at 70.231 34.9163 0)
+    (property "Reference" "C11" (at 70.231 34.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 70.231 36.8373 0)
@@ -3364,7 +3364,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "C7") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3548,7 +3548,7 @@
   (symbol (lib_id "Diode:1N4001") (at 53.34 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef1040b0-a822-4d48-8bb8-3b93f6521d6e)
-    (property "Reference" "D2" (at 53.34 17.3101 0)
+    (property "Reference" "D1" (at 53.34 17.3101 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4001" (at 53.34 19.2311 0)
@@ -3571,7 +3571,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -3580,7 +3580,7 @@
   (symbol (lib_id "Device:C") (at 68.58 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f44e653f-ab6a-41ea-89a0-e847fb0bf162)
-    (property "Reference" "C8" (at 71.501 62.8563 0)
+    (property "Reference" "C7" (at 71.501 62.8563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 71.501 64.7773 0)
@@ -3597,7 +3597,7 @@
     (instances
       (project "bdclock-driver"
         (path "/14a835c9-91cc-44a9-a6f5-f761c518c76f"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
